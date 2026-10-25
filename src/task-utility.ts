@@ -6,5 +6,5 @@ type Post = {
 };
 
 type EditPost = Partial<Post>;
-type Disp = Pick<Post, "id" | "title">;
+type SummaryPost = Pick<Post, "id" | "title">;
 type Published = Readonly<Post>;
